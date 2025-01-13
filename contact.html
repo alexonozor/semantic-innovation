@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="techida | IT Solutions & Business Services HTML landing page template ">
+  <!-- fav icon -->
+  <link rel="icon" href="images/favicon.ico">
+
+  <!-- bootstarp css file -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- aos.css file -->
+  <link rel="stylesheet" href="css/aos.css">
+
+  <!-- fancybox css file -->
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+  <!-- owl carousel css file -->
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+  <!--  toasts file     -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+
+  <!-- bootstrap icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+
+  <!-- main css file -->
+  <link rel="stylesheet" href="css/style.css">
+  <title>Semantic  Innovation Labs | Contact </title>
+</head>
+
+<body class="home-1">
+
+  <!-- start preLoader -->
+  <div id="preloader">
+    <svg id="mainSVG" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+      <defs>
+        <radialGradient id="mainGrad" cx="400" cy="300" fx="400" fy="300" r="100" gradientUnits="userSpaceOnUse">
+          <stop offset=".68" stop-color="#21df51" />
+          <stop offset=".72" stop-color="#3add63" />
+          <stop offset=".77" stop-color="#4fdd73" />
+          <stop offset=".82" stop-color="#66db83" />
+          <stop offset=".88" stop-color="#7cd893" />
+          <stop offset=".93" stop-color="#95d8a6" />
+          <stop offset=".99" stop-color="#bde6c7" />
+          <stop offset="1" stop-color="#e3f1e7" />
+        </radialGradient>
+      </defs>
+      <circle id="fillDot" cx="400" cy="300" fill="#21df51" r="100" />
+      <circle id="gradDot" cx="400" cy="300" fill="url(#mainGrad)" r="100" />
+    </svg>
+  </div>
+  <!-- end preLoader -->
+
+  <!-- start scroll to top button -->
+  <div id="progress">
+    <span id="progress-value"><i class="bi bi-arrow-up-short"></i></span>
+  </div>
+  <!-- end scroll to top button -->
+
+
+  <!-- ======= start Header ======= -->
+  <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand " href="index.html"><img src="images/logo/logo-colored.png" class="logo" alt="LOGO"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="bi bi-list" id="menu"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+          <ul class="navbar-nav ms-auto" id="navbar">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                pages
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item py-2" href="404.html">404 page</a></li>
+                <li><a class="dropdown-item py-2" href="blog.html">blog</a></li>
+                <li><a class="dropdown-item py-2" href="blog-single.html">single blog page</a></li>
+                <li><a class="dropdown-item py-2" href="about.html">about</a></li>
+                <li><a class="dropdown-item py-2" href="services.html">services</a></li>
+                <li><a class="dropdown-item py-2" href="service-single.html">service single</a></li>
+                <li><a class="dropdown-item py-2" href="portfolio.html">portfolio</a></li>
+                <li><a class="dropdown-item py-2" href="portfolio-single.html">portfolio single</a></li>
+                <li><a class="dropdown-item py-2" href="privacy-policy.html">privacy policy</a></li>
+                <li><a class="dropdown-item py-2" href="terms-of-use.html">terms of use</a></li>
+                <li><a class="dropdown-item py-2" href="contact.html">contact</a></li>
+                <li><a class="dropdown-item py-2" href="login.html">login page</a></li>
+                <li><a class="dropdown-item py-2" href="register.html">register</a></li>
+              </ul>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">portfolio</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">contact us</a>
+            </li>
+          </ul>
+          <div class="d-flex ms-auto">
+            <a class="btn" href="contact.html">Get in touch</a>
+            <button id="mode-toggle" class="btn-light-mode switch-button"><i id="mode-icon"
+                class="bi bi-moon-fill"></i></button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- ======= end Header ======= -->
+
+  <!-- ======= srart Breadcrumbs ======= -->
+  <section class="breadcrumbs py-4" data-aos="fade-up" data-aos-delay="100">
+    <div class="container">
+      <ol>
+        <li><a href="index.html">Home</a></li>
+        <li>contact</li>
+      </ol>
+      <h2 class="title">contact us</h2>
+      <!-- <p class="col-lg-10 col-12">
+        Although, final stages of the internal network gives a complete experience of
+        The Parameter of Speculative Environment
+      </p> -->
+    </div>
+  </section><!-- End Breadcrumbs -->
+
+  <!-- ============== Start contact section ========== -->
+  <section class="container contact py-5" id="contact">
+    <div class="heading ">
+      <span class="pretitle" data-aos="fade-up">
+        contact
+      </span>
+      <h2 class="title col-12" data-aos="fade-up" data-aos-delay="100">
+        contact us for Any Questions
+      </h2>
+      <p class="col-lg-7 col-12" data-aos="fade-up" data-aos-delay="150">
+        We’re here to help! Reach out to us with your questions, and our team will provide the support and guidance you need to achieve your goals.
+      </p>
+    </div>
+    <div class="row  gx-4 ">
+      <div class="col-12 col-lg-6 gy-3">
+        <h2 class="title-2 " data-aos="fade-right" data-aos-delay="200">
+          contact info :
+        </h2>
+        <div class="info d-flex my-4 " data-aos="fade-right" data-aos-delay="250">
+          <h5><i class="bi bi-envelope-fill mx-4"></i>contact@semantic-innovation.com</h5>
+        </div>
+        <div class="info d-flex my-4 " data-aos="fade-up" data-aos-delay="300">
+          <h5><i class="bi bi-phone-fill mx-4"></i>+230 7017 3725</h5>
+        </div>
+        <div class="info d-flex my-4 " data-aos="fade-up" data-aos-delay="350">
+          <h5><i class="bi bi-geo-alt-fill mx-4"></i>Grand baie, riviere du rempart, Mauritius</h5>
+        </div>
+        <div class="info d-flex my-4 " data-aos="fade-up" data-aos-delay="400">
+          <h5><i class="bi bi-instagram mx-4"></i>Semantic Innovation Labs</h5>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6">
+        <!--Form To have user messages-->
+        <form class="main-form" id="contact-us-form" action="contact.php" method="post">
+          <div class="col-12">
+            <div class="row g-3 mb-1">
+              <div class="col-lg-6 col-12" data-aos="fade-right" data-aos-delay="200">
+                <input placeholder="name" type="text" id="name" name="name" class="text-input">
+              </div>
+              <div class="col-lg-6 col-12" data-aos="fade-left" data-aos-delay="200">
+                <input placeholder="subject" type="text" id="subject" name="subject" class="text-input">
+              </div>
+            </div>
+          </div>
+          <div class="col-12" data-aos="fade-up" data-aos-delay="250">
+            <input placeholder="email" type="email" id="email" name="email" class="text-input my-2">
+          </div>
+          <div class="col-12" data-aos="fade-up" data-aos-delay="300">
+            <textarea placeholder="message" class="text-input my-2" rows="7" cols="30" id="message"
+              name="message"></textarea>
+          </div>
+          <div class="col-12" data-aos="fade-up" data-aos-delay="350">
+            <button type="submit" value="Submit" class="btn">send now</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <iframe class="contact-map" data-aos="fade-up" data-aos-delay="450"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14942.200632430416!2d57.68086398715821!3d-20.018250200000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x217c61404ba03061%3A0xab5806084edfa3eb!2sGrand%20Baie%2C%20Mauritius!5e0!3m2!1sen!2sus!4v1706455093854!5m2!1sen!2sus"
+      allowfullscreen=""></iframe>
+  </section>
+  <!-- ============== end contact section ========== -->
+
+  <!-- ============== Start FAQ section ========== -->
+  <section class="container faq py-5">
+    <div class="heading">
+      <span class="pretitle" data-aos="fade-up">
+        FAQ
+      </span>
+      <h2 class="title col-12" data-aos="fade-up" data-aos-delay="100">
+        Frequently Asked Questions
+      </h2>
+      <p class="col-lg-7 col-12" data-aos="fade-up" data-aos-delay="150">
+        We provide clear and concise answers to help you understand our services better, ensuring a smooth and informed experience every step of the way.
+      </p>
+    </div>
+    <div class="row justify-content-center align-items-center  gx-4 ">
+      <div class="col-12 col-lg-6" data-aos="fade-right" data-aos-delay="200" data-tilt>
+        <img src="images/faq/customer.png" alt="faq">
+      </div>
+      <div class="col-12 col-lg-6  ">
+        <div class="col-12 my-4" data-aos="fade-up" data-aos-delay="250">
+          <div class="box">
+            <div class="d-flex w-100 justify-content-between">
+              <a data-bs-toggle="collapse" class="w-100" onclick="rotateIcon('icon1')" href="#answer1" role="button"
+                aria-expanded="false">
+                <h4 class="d-flex justify-content-between w-100 heading-3 m-0 p-0">
+                  What services does your software company offer?
+                  <i class="bi bi-chevron-compact-down mx-4 rotate-icon" id="icon1"></i>
+                </h4>
+              </a>
+            </div>
+            <p id="answer1" class="collapse">
+              We specialize in custom software development, mobile app development, web development, IT consulting, and system integration. Our team works with cutting-edge technologies to deliver tailored solutions for your unique business needs.
+            </p>
+          </div>
+        </div>
+        <div class="col-12 my-4 " data-aos="fade-up" data-aos-delay="300">
+          <div class="box">
+            <div class="d-flex w-100 justify-content-between">
+              <a data-bs-toggle="collapse" class="w-100" onclick="rotateIcon('icon2')" href="#answer2" role="button"
+                aria-expanded="false">
+                <h4 class="d-flex justify-content-between w-100 heading-3 m-0 p-0">
+                  How long does it take to develop a software solution?
+                  <i class="bi bi-chevron-compact-down mx-4 rotate-icon" id="icon2"></i>
+                </h4>
+              </a>
+            </div>
+            <p id="answer2" class="collapse">
+              The timeline depends on the complexity and scope of the project. Typically, small to medium-sized projects take 3-6 months, while more complex solutions may require 9-12 months. We provide detailed project timelines after understanding your requirements.
+            </p>
+          </div>
+        </div>
+        <div class="col-12 my-4 " data-aos="fade-up" data-aos-delay="350">
+          <div class="box">
+            <div class="d-flex w-100 justify-content-between">
+              <a data-bs-toggle="collapse" class="w-100" onclick="rotateIcon('icon3')" href="#answer3" role="button"
+                aria-expanded="false">
+                <h4 class="d-flex justify-content-between w-100 heading-3 m-0 p-0">
+                  How do you ensure the quality of your software?
+                  <i class="bi bi-chevron-compact-down mx-4 rotate-icon" id="icon3"></i>
+                </h4>
+              </a>
+            </div>
+            <p id="answer3" class="collapse">
+              We follow rigorous quality assurance processes, including automated and manual testing at every stage of development. Our team adheres to industry best practices and uses tools to ensure the software is robust, secure, and scalable.
+            </p>
+          </div>
+        </div>
+        <div class="col-12 my-4" data-aos="fade-up" data-aos-delay="400">
+          <div class="box">
+            <div class="d-flex w-100 justify-content-between">
+              <a data-bs-toggle="collapse" class="w-100" onclick="rotateIcon('icon4')" href="#answer4" role="button"
+                aria-expanded="false">
+                <h4 class="d-flex justify-content-between w-100 heading-3 m-0 p-0">
+                  Do you provide ongoing support and maintenance after the project is delivered?
+                  <i class="bi bi-chevron-compact-down mx-4 rotate-icon" id="icon4"></i>
+                </h4>
+              </a>
+            </div>
+            <p id="answer4" class="collapse">
+              Yes, we offer comprehensive post-launch support and maintenance services, including bug fixes, updates, and enhancements to ensure your software remains up-to-date and performs optimally.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ============== End FAQ section ========== -->
+
+
+  <!-- ============== Start Footer section ========== -->
+  <div class="footer">
+    <div class="container">
+      <div class="row justify-content-center align-items-center g-4">
+        <div class="col-12 col-lg-3 col-md-6 mx-auto my-4">
+          <div
+            class="box d-flex flex-column justify-content-md-start justify-content-lg-start justify-content-center align-items-center align-items-lg-start align-items-md-start">
+            <a href="#" class="logo "><img class="my-2" src="images/logo/logo-white.png" alt=""></a>
+            <p>Achieve peace of mind knowing that your engineering partner is just a conversation away.</p>
+            <h4 class="my-2">
+              follow us
+            </h4>
+            <div class="social d-flex gap-2">
+              <div class="icon"><i class="bi bi-facebook"></i></div>
+              <div class="icon"><i class="bi bi-instagram"></i></div>
+              <div class="icon"><i class="bi bi-twitter-x "></i></div>
+              <div class="icon"><i class="bi bi-youtube"></i></div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-12 col-lg-3 col-md-6 mx-auto d-flex flex-column justify-content-md-start justify-content-lg-start justify-content-center align-items-center align-items-lg-start align-items-md-start my-4 gap-3">
+          <h4>site map</h4>
+          <ul class="d-flex flex-column gap-3">
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a href="index.html">home</a>
+            </li>
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a
+                href="about.html">about</a></li>
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a
+                href="services.html">services</a></li>
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a
+                href="contact.html">contact</a></li>
+          </ul>
+        </div>
+        <div
+          class="col-12 col-lg-3 col-md-6 mx-auto d-flex flex-column justify-content-md-start justify-content-lg-start justify-content-center align-items-center align-items-lg-start align-items-md-start my-4 gap-3">
+          <h4>follow us</h4>
+          <ul class="d-flex flex-column gap-3">
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a href="#">facebook</a>
+            </li>
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a href="#">instagram</a>
+            </li>
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a href="#">linkedin</a></li>
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a href="#">x</a></li>
+          </ul>
+        </div>
+        <div
+          class="col-12 col-lg-3 col-md-6 mx-auto d-flex flex-column justify-content-md-start justify-content-lg-start justify-content-center align-items-center align-items-lg-start align-items-md-start my-4 gap-3">
+          <h4>Locations</h4>
+          <ul class="d-flex flex-column gap-3">
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i>
+              OX-BOW LAKE, YENEGOA, BAYELSA, NIGERIA
+            </li>
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i>
+              KN 14 Av. 45 Kimihurura P.O.Box 283 Kigali, Rwanda
+            </li>
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i>
+              Grand baie, riviere du rempart, Mauritius
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="copyrights ">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 d-flex justify-content-lg-start justify-content-md-start justify-content-center">
+            <p class="creadits">
+              &copy; 2025
+              Created by: <a href="#">Semantic Innovation Labs</a>
+            </p>
+          </div>
+          <div
+            class="col-12 col-md-6 d-flex justify-content-lg-end justify-content-md-end justify-content-center pb-md-0 pb-md-0 pb-lg-0 pb-3">
+            <div>
+              <a href="terms-of-use.html">Terms of Use </a>
+              | <a href="privacy-policy.html">Privacy Policy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ============== end Footer section ========== -->
+
+  <!--  JQuery file     -->
+  <script src="js/jquery-3.6.1.min.js"></script>
+
+  <!-- bootstrap min js -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <!--  toasts file     -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+
+  <!--  owl carousel    -->
+  <script src="js/owl.carousel.min.js"></script>
+
+  <!-- aos file    -->
+  <script src="js/aos.js"></script>
+
+  <!-- gsap file    -->
+  <script src="js/gsap.min.js"></script>
+
+  <!--  counter     -->
+  <script src="js/jquery.counterup.min.js"></script>
+  <script src="js/jquery.waypoints.js"></script>
+
+  <!-- particles js file  -->
+  <script src="js/particles.min.js"></script>
+
+  <!-- jquery isotope file -->
+  <script src="js/isotope.min.js"></script>
+
+  <!-- jquery fancybox file -->
+  <script src="js/jquery.fancybox.min.js"></script>
+
+  <!--  main js file  -->
+  <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
